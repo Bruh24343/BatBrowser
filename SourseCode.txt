@@ -1,0 +1,15 @@
+@echo off
+:loop
+title Your title
+color 7
+cls
+echo Welcome to  your name
+echo.
+echo Type in a URL below.
+echo ----------------------------------------­------
+
+set /p sitename=
+
+start %sitename%
+pause
+goto loop
